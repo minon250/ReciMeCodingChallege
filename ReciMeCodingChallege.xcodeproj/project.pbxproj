@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		EE2366DF2978BD1D00E7AC9C /* ReciMeCodingChallegeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2366DE2978BD1D00E7AC9C /* ReciMeCodingChallegeApp.swift */; };
-		EE2366E12978BD1D00E7AC9C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2366E02978BD1D00E7AC9C /* ContentView.swift */; };
 		EE2366E32978BD1E00E7AC9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE2366E22978BD1E00E7AC9C /* Assets.xcassets */; };
 		EE2366E62978BD1E00E7AC9C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE2366E52978BD1E00E7AC9C /* Preview Assets.xcassets */; };
 		EE2366F02978C02D00E7AC9C /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2366EF2978C02D00E7AC9C /* Configuration.swift */; };
@@ -16,12 +15,19 @@
 		EE2366F52978C18000E7AC9C /* RecipesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2366F42978C18000E7AC9C /* RecipesListViewModel.swift */; };
 		EE2366F82978C1D000E7AC9C /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2366F72978C1D000E7AC9C /* APIClient.swift */; };
 		EE2366FA2978C32D00E7AC9C /* APIProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2366F92978C32D00E7AC9C /* APIProtocol.swift */; };
+		EE2366FC2978C9EC00E7AC9C /* HTTPRequestMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2366FB2978C9EC00E7AC9C /* HTTPRequestMethod.swift */; };
+		EE2366FE2978CC6600E7AC9C /* RecipesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2366FD2978CC6600E7AC9C /* RecipesRequest.swift */; };
+		EE2367002978CCAC00E7AC9C /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2366FF2978CCAC00E7AC9C /* Recipe.swift */; };
+		EE2367022978CF5300E7AC9C /* RecipesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2367012978CF5300E7AC9C /* RecipesService.swift */; };
+		EE2367042978CF6800E7AC9C /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2367032978CF6800E7AC9C /* NetworkService.swift */; };
+		EE2367072978CFDB00E7AC9C /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2367062978CFDB00E7AC9C /* BaseViewModel.swift */; };
+		EE23670A2978D3F100E7AC9C /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2367092978D3F100E7AC9C /* Session.swift */; };
+		EE23670D2978DB0600E7AC9C /* Alert+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE23670C2978DB0600E7AC9C /* Alert+View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EE2366DB2978BD1D00E7AC9C /* ReciMeCodingChallege.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReciMeCodingChallege.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE2366DE2978BD1D00E7AC9C /* ReciMeCodingChallegeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReciMeCodingChallegeApp.swift; sourceTree = "<group>"; };
-		EE2366E02978BD1D00E7AC9C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EE2366E22978BD1E00E7AC9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE2366E52978BD1E00E7AC9C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EE2366EE2978BEDE00E7AC9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -30,6 +36,14 @@
 		EE2366F42978C18000E7AC9C /* RecipesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesListViewModel.swift; sourceTree = "<group>"; };
 		EE2366F72978C1D000E7AC9C /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		EE2366F92978C32D00E7AC9C /* APIProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIProtocol.swift; sourceTree = "<group>"; };
+		EE2366FB2978C9EC00E7AC9C /* HTTPRequestMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPRequestMethod.swift; sourceTree = "<group>"; };
+		EE2366FD2978CC6600E7AC9C /* RecipesRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesRequest.swift; sourceTree = "<group>"; };
+		EE2366FF2978CCAC00E7AC9C /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		EE2367012978CF5300E7AC9C /* RecipesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesService.swift; sourceTree = "<group>"; };
+		EE2367032978CF6800E7AC9C /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		EE2367062978CFDB00E7AC9C /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		EE2367092978D3F100E7AC9C /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		EE23670C2978DB0600E7AC9C /* Alert+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alert+View.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +76,13 @@
 		EE2366DD2978BD1D00E7AC9C /* ReciMeCodingChallege */ = {
 			isa = PBXGroup;
 			children = (
-				EE2366F62978C1BF00E7AC9C /* Network */,
-				EE2366F12978C15300E7AC9C /* Recipes */,
-				EE2366DE2978BD1D00E7AC9C /* ReciMeCodingChallegeApp.swift */,
-				EE2366E02978BD1D00E7AC9C /* ContentView.swift */,
 				EE2366EF2978C02D00E7AC9C /* Configuration.swift */,
+				EE2366DE2978BD1D00E7AC9C /* ReciMeCodingChallegeApp.swift */,
+				EE23670B2978DAFC00E7AC9C /* Extensions */,
+				EE2367082978D3E700E7AC9C /* Session */,
+				EE2367052978CFCE00E7AC9C /* BaseClasses */,
+				EE2366F62978C1BF00E7AC9C /* Network */,
+				EE2367112978E00300E7AC9C /* Features */,
 				EE2366EE2978BEDE00E7AC9C /* Info.plist */,
 				EE2366E22978BD1E00E7AC9C /* Assets.xcassets */,
 				EE2366E42978BD1E00E7AC9C /* Preview Content */,
@@ -85,8 +101,9 @@
 		EE2366F12978C15300E7AC9C /* Recipes */ = {
 			isa = PBXGroup;
 			children = (
-				EE2366F22978C16900E7AC9C /* RecipesListScreen.swift */,
-				EE2366F42978C18000E7AC9C /* RecipesListViewModel.swift */,
+				EE2367102978DF9400E7AC9C /* View */,
+				EE23670F2978DF8A00E7AC9C /* Service */,
+				EE23670E2978DF8100E7AC9C /* Model */,
 			);
 			path = Recipes;
 			sourceTree = "<group>";
@@ -96,8 +113,68 @@
 			children = (
 				EE2366F72978C1D000E7AC9C /* APIClient.swift */,
 				EE2366F92978C32D00E7AC9C /* APIProtocol.swift */,
+				EE2366FB2978C9EC00E7AC9C /* HTTPRequestMethod.swift */,
+				EE2367032978CF6800E7AC9C /* NetworkService.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		EE2367052978CFCE00E7AC9C /* BaseClasses */ = {
+			isa = PBXGroup;
+			children = (
+				EE2367062978CFDB00E7AC9C /* BaseViewModel.swift */,
+			);
+			path = BaseClasses;
+			sourceTree = "<group>";
+		};
+		EE2367082978D3E700E7AC9C /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				EE2367092978D3F100E7AC9C /* Session.swift */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		EE23670B2978DAFC00E7AC9C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EE23670C2978DB0600E7AC9C /* Alert+View.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EE23670E2978DF8100E7AC9C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EE2366FF2978CCAC00E7AC9C /* Recipe.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EE23670F2978DF8A00E7AC9C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				EE2366FD2978CC6600E7AC9C /* RecipesRequest.swift */,
+				EE2367012978CF5300E7AC9C /* RecipesService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		EE2367102978DF9400E7AC9C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EE2366F22978C16900E7AC9C /* RecipesListScreen.swift */,
+				EE2366F42978C18000E7AC9C /* RecipesListViewModel.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EE2367112978E00300E7AC9C /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				EE2366F12978C15300E7AC9C /* Recipes */,
+			);
+			path = Features;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,13 +247,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE23670A2978D3F100E7AC9C /* Session.swift in Sources */,
 				EE2366F02978C02D00E7AC9C /* Configuration.swift in Sources */,
+				EE2366FE2978CC6600E7AC9C /* RecipesRequest.swift in Sources */,
 				EE2366FA2978C32D00E7AC9C /* APIProtocol.swift in Sources */,
 				EE2366F32978C16900E7AC9C /* RecipesListScreen.swift in Sources */,
+				EE23670D2978DB0600E7AC9C /* Alert+View.swift in Sources */,
 				EE2366F52978C18000E7AC9C /* RecipesListViewModel.swift in Sources */,
-				EE2366E12978BD1D00E7AC9C /* ContentView.swift in Sources */,
+				EE2366FC2978C9EC00E7AC9C /* HTTPRequestMethod.swift in Sources */,
+				EE2367022978CF5300E7AC9C /* RecipesService.swift in Sources */,
+				EE2367072978CFDB00E7AC9C /* BaseViewModel.swift in Sources */,
 				EE2366DF2978BD1D00E7AC9C /* ReciMeCodingChallegeApp.swift in Sources */,
 				EE2366F82978C1D000E7AC9C /* APIClient.swift in Sources */,
+				EE2367042978CF6800E7AC9C /* NetworkService.swift in Sources */,
+				EE2367002978CCAC00E7AC9C /* Recipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct ReciMeCodingChallegeApp: App {
+    
+    private let service = NetworkService()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RecipesListScreen(vm: .init(service: service))
         }
     }
 }

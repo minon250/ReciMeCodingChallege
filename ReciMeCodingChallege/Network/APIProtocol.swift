@@ -8,9 +8,9 @@
 import Foundation
 
 protocol APIRequest: Encodable {
-    associatedtype Response: APIResponse
+    associatedtype Response: Decodable
     var resourceName: String { get }
-    var reqestMethod: String {get}
+    var reqestMethod: HTTPRequestMethod {get}
 }
 
 protocol APIResponse: Decodable {
