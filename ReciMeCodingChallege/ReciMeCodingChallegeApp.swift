@@ -15,6 +15,7 @@ struct ReciMeCodingChallegeApp: App {
     var body: some Scene {
         WindowGroup {
             RecipesListScreen(vm: .init(service: service))
+                .environmentObject(service)
         }
     }
 }

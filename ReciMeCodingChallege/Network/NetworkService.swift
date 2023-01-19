@@ -7,6 +7,4 @@
 
 import Foundation
 
-final class NetworkService {
-    
-}
+final class NetworkService:ObservableObject {}

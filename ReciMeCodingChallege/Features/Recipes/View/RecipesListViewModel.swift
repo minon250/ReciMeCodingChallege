@@ -14,12 +14,11 @@ final class RecipesListViewModel: BaseViewModel {
     
     init(service: RecipesService) {
         self.service = service
+        super.init()
+        processing = true
     }
     
     func loadRecipes() async {
-        await MainActor.run(body: { [weak self] in
-            self?.processing = true
-        })
         do {
             let response = try await service.loadRecipes()
             await MainActor.run(body: { [weak self] in
