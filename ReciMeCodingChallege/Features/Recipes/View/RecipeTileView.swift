@@ -13,7 +13,7 @@ struct RecipeTileView: View {
     
     var body: some View {
         VStack {
-            AsyncImage(url: recipe.recipeImageUrl) { image in
+            AsyncImage(url: recipe.imageUrl) { image in
                 image.resizable()
                 .scaledToFill()
                 .overlay(LinearGradient(gradient: Gradient(colors: [.black, .clear]),
@@ -27,7 +27,7 @@ struct RecipeTileView: View {
             .cornerRadius(20)
             .overlay(alignment:.bottom) {
                 HStack {
-                    Text(recipe.totalTime)
+                    Text(recipe.totalTimeFormatted)
                     Spacer()
                     if let saves = recipe.numSaves {
                         Text("\(saves)")
@@ -37,7 +37,7 @@ struct RecipeTileView: View {
                 .foregroundColor(.white)
             }
             
-            Text(recipe.title ?? "")
+            Text(recipe.title)
                 .font(.headline)
                 .lineLimit(1)
         }
