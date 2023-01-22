@@ -51,6 +51,8 @@ struct RecipeDetailScreen: View {
                     
                     ingredientsView
                     preparationStepsView
+                    tagView
+                    
 
                 }.listRowSeparator(.hidden)
             }.listStyle(.plain)
@@ -143,7 +145,27 @@ struct RecipeDetailScreen: View {
             }
         }
     }
+    
+    @ViewBuilder
+    private var tagView: some View {
+        if vm.recipe.tags.isEmpty {
+            EmptyView()
+        }
+        else {
+            Text("Tags")
+                .font(.title2)
+            FlowLayout(vm.recipe.tags.sorted()) { tag in
+                Text(tag).padding(.horizontal)
+                    .padding(.vertical,10)
+                    .background(Color.gray.opacity(0.5)).cornerRadius(10)
+            }
+
+
+            
+        }
+    }
 }
+
 
 //struct RecipeDetailScreen_Previews: PreviewProvider {
 //    static var previews: some View {

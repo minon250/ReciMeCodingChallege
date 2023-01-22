@@ -33,6 +33,7 @@
 		EE236727297A35A000E7AC9C /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE236726297A35A000E7AC9C /* NetworkError.swift */; };
 		EE236729297A45DE00E7AC9C /* RecipeStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE236728297A45DE00E7AC9C /* RecipeStepView.swift */; };
 		EE23672B297A460200E7AC9C /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE23672A297A460200E7AC9C /* String+Extension.swift */; };
+		EE23672D297D254800E7AC9C /* FlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE23672C297D254800E7AC9C /* FlowLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		EE236726297A35A000E7AC9C /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		EE236728297A45DE00E7AC9C /* RecipeStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeStepView.swift; sourceTree = "<group>"; };
 		EE23672A297A460200E7AC9C /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		EE23672C297D254800E7AC9C /* FlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,6 +235,7 @@
 			children = (
 				EE2367132978E10900E7AC9C /* RecipeViewModel.swift */,
 				EE2367152978E14A00E7AC9C /* RecipeDetailScreen.swift */,
+				EE23672C297D254800E7AC9C /* FlowLayout.swift */,
 				EE236724297A215800E7AC9C /* IngredientRowView.swift */,
 				EE236728297A45DE00E7AC9C /* RecipeStepView.swift */,
 			);
@@ -328,6 +331,7 @@
 				EE23672B297A460200E7AC9C /* String+Extension.swift in Sources */,
 				EE2366F82978C1D000E7AC9C /* APIClient.swift in Sources */,
 				EE2367182978E30B00E7AC9C /* RecipeTileView.swift in Sources */,
+				EE23672D297D254800E7AC9C /* FlowLayout.swift in Sources */,
 				EE2367042978CF6800E7AC9C /* NetworkService.swift in Sources */,
 				EE23671A2979FF5000E7AC9C /* RecipeDetailRequest.swift in Sources */,
 				EE2367142978E10900E7AC9C /* RecipeViewModel.swift in Sources */,
