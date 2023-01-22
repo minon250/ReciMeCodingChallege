@@ -6,10 +6,18 @@
 //
 
 import Foundation
+
+/// A class that handles sending API requests and parsing responses.
 final class APIClient {
-    
+    /// A shared instance of the APIClient, to be used throughout the app.
     static let shared = APIClient()
     
+    /**
+    Sends an API request and parses the response.
+     - parameter request: The API request to send.
+     - returns: The parsed response from the API.
+     - throws: A `NetworkError` if there was an issue with the request or response.
+     */
     func send<T:APIRequest>(_ request: T) async throws -> T.Response {
         
         do {
