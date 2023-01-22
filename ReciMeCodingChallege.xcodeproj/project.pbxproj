@@ -66,6 +66,7 @@
 		EE236728297A45DE00E7AC9C /* RecipeStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeStepView.swift; sourceTree = "<group>"; };
 		EE23672A297A460200E7AC9C /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		EE23672C297D254800E7AC9C /* FlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowLayout.swift; sourceTree = "<group>"; };
+		EE23672E297D2E8D00E7AC9C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +109,7 @@
 				EE2366EE2978BEDE00E7AC9C /* Info.plist */,
 				EE2366E22978BD1E00E7AC9C /* Assets.xcassets */,
 				EE2366E42978BD1E00E7AC9C /* Preview Content */,
+				EE23672E297D2E8D00E7AC9C /* README.md */,
 			);
 			path = ReciMeCodingChallege;
 			sourceTree = "<group>";
