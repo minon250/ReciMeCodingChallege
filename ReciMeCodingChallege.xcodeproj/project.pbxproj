@@ -83,6 +83,7 @@
 		EE2366D22978BD1C00E7AC9C = {
 			isa = PBXGroup;
 			children = (
+				EE23672E297D2E8D00E7AC9C /* README.md */,
 				EE2366DD2978BD1D00E7AC9C /* ReciMeCodingChallege */,
 				EE2366DC2978BD1D00E7AC9C /* Products */,
 			);
@@ -109,7 +110,6 @@
 				EE2366EE2978BEDE00E7AC9C /* Info.plist */,
 				EE2366E22978BD1E00E7AC9C /* Assets.xcassets */,
 				EE2366E42978BD1E00E7AC9C /* Preview Content */,
-				EE23672E297D2E8D00E7AC9C /* README.md */,
 			);
 			path = ReciMeCodingChallege;
 			sourceTree = "<group>";
